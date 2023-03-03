@@ -3,7 +3,166 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 85vh;
-  border: 3px red solid;
+  padding: 0rem;
+  min-height: 84vh;
+
+}
+
+.mainSection1, .mainSection2, .mainSection3, .mainSection4 {
+  width: 100%;
+}
+
+.mainSection1{
+  height: 22vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSection2{
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  color: #000000;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.red{
+  color: #ed0a0a;
+}
+
+.mainSection3{
+  height: 27vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mainSection4{
+  height: 27vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-----------------Section 1----------------------*/
+
+.div1_Section1, .div2_Section1, .div3_Section1{
+    width: 33.33%;
+    height: 100%;
+}
+
+.div1_Section1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(20deg);
+}
+
+.div2_Section1{
+  border: 1px red solid;
+}
+
+.div3_Section1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-----------------Section 3----------------------*/
+
+.div1_Section3, .div2_Section3, .div3_Section3, .div4_Section3{
+  height: 100%;
+}
+
+.div1_Section3{
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.div2_Section3{
+  width: 40%;
+  border: 1px red solid;
+}
+
+.div3_Section3{
+  width: 40%;
+  border: 1px red solid;
+}
+
+.div4_Section3{
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  transform: rotate(30deg);
+}
+
+/*-----------------Section 4----------------------*/
+
+.div1_Section4, .div2_Section4, .div3_Section4{
+  width: 33.33%;
+  height: 100%;
+}
+
+.div1_Section4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-8deg);
+}
+
+.div2_Section4{
+  border: 1px red solid;
+}
+
+.div3_Section4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.div3_Section4_1, .div3_Section4_2{
+  width: 50%;
+  height: 100%;
+}
+
+.div3_Section4_1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-8deg);
+  margin-top: -100px;
+  margin-left: 50px;
+}
+
+.div3_Section4_2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-8deg);
+  margin-top: 80px;
+  margin-left: -80px;
 }

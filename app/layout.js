@@ -1,9 +1,6 @@
 import './globals.css'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
-import { Poppins } from '@next/font/google'
-
-
 
 export const metadata = {
   title: 'Past Paper Hub',

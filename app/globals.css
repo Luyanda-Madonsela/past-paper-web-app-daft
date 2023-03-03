@@ -21,13 +21,13 @@ a {
   }
 }
 
-nav {
+/*----------------------------------------------Navigation------------------------------------------*/
 
+nav {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   margin-left: 10px;
-  
 }
 
 .navItems {
@@ -37,7 +37,6 @@ nav {
   margin-top: 50px;
   margin-right: 50px;
   gap:15px;
-  
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -48,33 +47,30 @@ nav {
 }
 
 .navItem:hover {
-
   color: rgb(48, 203, 89);
 }
 
-/*----------------------------------------------FOOTER------------------------------------------*/
+/*----------------------------------------------Footer------------------------------------------*/
+
 footer {
   height: 40vh;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   background: #E6FFE0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .footDiv1, .footDiv2, .footDiv3, .footDiv4 {
-
   height: 25%;
   width: 100%;
-  /* border: 3px red solid; */
   display:flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap:25px;
-
+  margin-top: -10px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -82,18 +78,14 @@ footer {
   line-height: 30px;
   color: #4E4E4E;
   transform: matrix(1, 0, 0, 1, 0, 0);
-
 }
 
 .mediaLink:hover {
-
   height: 58px;
   width: 38px;
-
 }
 
 .footItem {
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -104,7 +96,6 @@ footer {
 }
 
 .smallFootItem {
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -115,26 +106,21 @@ footer {
 }
 
 .smallFootItem:hover {
-
   color: rgb(48, 203, 89);
 }
 
 .footItem:hover {
-
   color: rgb(48, 203, 89);
 }
 
 .footDiv4 {
-
   height: 25%;
   width: 100%;
-  /* border: 3px red solid; */
   display:flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap:25px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -142,20 +128,16 @@ footer {
   line-height: 30px;
   color: #4E4E4E;
   transform: matrix(1, 0, 0, 1, 0, 0);
-
 }
 
 .insideDiv1, .insideDiv2, .insideDiv3{
-
   height: 25%;
   width: 100%;
-  /* border: 3px red solid; */
   display:flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap:25px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -163,5 +145,4 @@ footer {
   line-height: 30px;
   color: #4E4E4E;
   transform: matrix(1, 0, 0, 1, 0, 0);
-
 }

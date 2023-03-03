@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/Image';
-import facebook from './facebook.png'
-import whatsapp from './whatsapp.png'
-import youtube from './youtube.png'
-import logo from './Logo_no_slogan.png'
+import facebook from '../images/facebook.png'
+import whatsapp from '../images/whatsapp.png'
+import youtube from '../images/youtube.png'
+import logo from '../images/Logo_no_slogan.png'
 
 
 const Footer = () => {

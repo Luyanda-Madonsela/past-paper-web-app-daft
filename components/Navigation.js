@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/Image';
-import logo from './Logo.png'
+import logo from '../images/Logo.png'
 
 
 const Navigation = () => {
