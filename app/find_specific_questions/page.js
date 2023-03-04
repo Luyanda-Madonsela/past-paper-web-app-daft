@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 export default function Home() {
 return (
     <div className={styles.main}>
-        <h1>Sign Up</h1>
+        <h1>Find Questions</h1>
     </div>
 )
 }
