@@ -29,8 +29,9 @@
 
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 63px;
   color: #000000;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -97,7 +98,7 @@
   height: 60px;
   width: 170px;
   font-size: 24px;
-  font-family: Inter;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   color: #777777;
   border: none;
@@ -108,14 +109,20 @@
 .loginButt:hover,.signupButt:hover {
   height: 67px;
   width: 177px;
+  color: #67983e;
 }
 
 .benefitsLink{
   font-size: 12px;
-  font-family: Inter;
+  font-family: 'Poppins', sans-serif;
   text-decoration-line: underline;
   color: #313131;
 }
+
+.benefitsLink:hover{
+  color: #67983e;
+}
+
 
 /*-----------------Section 3----------------------*/
 
@@ -161,7 +168,7 @@
   height: 170px;
   background: #F0FEFF;
   border-radius: 15px;
-  font-family: 'Inter';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
@@ -172,9 +179,7 @@
 .downloadsButt:hover, .findQuestionsButt:hover{
   width: 570px;
   height: 190px;
-  border: 10px;
-  border-color: #204c52;
-  color: #204c52;
+  color: #b6faf9;
 }
 
 .downloadsButt{
@@ -229,7 +234,7 @@
   height: 75px;
   background: #F0FEFF;
   border-radius: 15px;
-  font-family: 'Inter';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -241,9 +246,7 @@
 .getTutorButt:hover, .sendPapersButt:hover{
   width: 379px;
   height: 95px;
-  border: 10px;
-  border-color: #204c52;
-  color: #204c52;
+  color: #b6faf9;
 }
 
 .getTutorButt{

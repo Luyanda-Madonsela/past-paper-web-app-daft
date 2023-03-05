@@ -14,7 +14,6 @@ import tutor from '../images/support.png'
 import upload from '../images/upload-file.png'
 
 
-
 export default function Home() {
   return (
     <main className={styles.main}>
