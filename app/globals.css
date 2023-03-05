@@ -80,6 +80,11 @@ footer {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+.footDiv3{
+
+  gap: 50px;
+}
+
 .mediaLink:hover {
   height: 58px;
   width: 38px;
