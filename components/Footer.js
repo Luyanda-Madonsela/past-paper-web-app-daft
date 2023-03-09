@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/Image';
-import facebook from '../images/facebook.png'
-import whatsapp from '../images/whatsapp.png'
-import youtube from '../images/youtube.png'
-import logo from '../images/Logo_no_slogan.png'
+import facebook from '/public/images/facebook.png'
+import whatsapp from '/public/images/whatsapp.png'
+import youtube from '/public/images/youtube.png'
+import logo from '/public/images/Logo_no_slogan.png'
 
 
 const Footer = () => {
@@ -12,43 +12,41 @@ const Footer = () => {
         
         <div className='footDiv1'>
 
-        <Image src={logo}  alt='/' layout="intrinsic"
+            <Image src={logo}  alt='/' layout="intrinsic"
+                sizes="(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw,
+                33vw" 
+                width={210} 
+                height={100}
+            />
 
-            sizes="(max-width: 768px) 100vw,
-            (max-width: 1200px) 50vw,
-            33vw" 
-            width={210} 
-            height={100}
-        />
-
-        </div>
+            </div>
 
         <div className='footDiv2'>
 
-        <Link className='footItem' href="/contact">
-            <p>Get in touch</p>
-        </Link>
+            <Link className='footItem' href="/contact">
+                <p>Get in touch</p>
+            </Link>
 
-        <Link className='footItem' href="/about">
-            <p>About Us</p>
-        </Link>
+            <Link className='footItem' href="/about">
+                <p>About Us</p>
+            </Link>
 
-        <Link className='footItem' href="/donate">
-            <p>Donate</p>
-        </Link>
+            <Link className='footItem' href="/donate">
+                <p>Donate</p>
+            </Link>
 
-        <Link className='footItem' href="/become_a_tutor">
-            <p>Become a Tutor</p>
-        </Link>
+            <Link className='footItem' href="/become_a_tutor">
+                <p>Become a Tutor</p>
+            </Link>
 
-        <Link className='footItem' href="/FAQs">
-            <p>FAQs</p>
-        </Link>
+            <Link className='footItem' href="/FAQs">
+                <p>FAQs</p>
+            </Link>
 
-        <Link className='footItem' href="/api_documentation">
-            <p>API</p>
-        </Link>
-
+            <Link className='footItem' href="/api_documentation">
+                <p>API</p>
+            </Link>
 
         </div>
 
@@ -63,6 +61,7 @@ const Footer = () => {
                     height={35}
                 />
             </Link>
+
             <Link className='mediaLink' href="/">
                 <Image src={youtube}  alt='/' layout="intrinsic"
                     sizes="(max-width: 768px) 100vw,
@@ -72,6 +71,7 @@ const Footer = () => {
                     height={35}
                 />
             </Link>
+
             <Link className='mediaLink' href="/">
                 <Image src={facebook}  alt='/' layout="intrinsic"
                     sizes="(max-width: 768px) 100vw,
@@ -81,6 +81,7 @@ const Footer = () => {
                     height={35}
                 />
             </Link>
+            
         </div>
 
         <div className='footDiv4'>

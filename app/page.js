@@ -1,17 +1,21 @@
 import Link from 'next/link'
 import Image from 'next/Image';
 import styles from './page.module.css'
-import physics from '../images/physics.gif'
-import chemical from '../images/chemical.png'
-import pencil_and_ruler from '../images/pencil-and-ruler.png'
-import sqroot from '../images/square-root-of-x-mathematical-signs.png'
-import exam from '../images/exam.gif'
-import math from '../images/maths.gif'
-import writing from '../images/writing_green.png'
-import download from '../images/download-pdf.png'
-import aim from '../images/aim.png'
-import tutor from '../images/support.png'
-import upload from '../images/upload-file.png'
+import physics from '/public/images/physics.gif'
+import chemical from '/public/images/chemical.png'
+import pencil_and_ruler from '/public/images/pencil-and-ruler.png'
+import sqroot from '/public/images/square-root-of-x-mathematical-signs.png'
+import exam from '/public/images/exam.gif'
+import math from '/public/images/maths.gif'
+import writing from '/public/images/writing_green.png'
+import download from '/public/images/download-pdf.png'
+import aim from '/public/images/aim.png'
+import tutor from '/public/images/support.png'
+import upload from '/public/images/upload-file.png'
+import '@fontsource/poppins/300.css';
+import '@fontsource/poppins/400.css';
+import '@fontsource/poppins/500.css';
+import '@fontsource/poppins/700.css';
 
 
 export default function Home() {
@@ -62,7 +66,7 @@ export default function Home() {
         </div>
 
         <div className={styles.mainSection2}>
-              <h1>Welcome to your <span className={styles.red}>one stop shop</span> for SA’s past papers!</h1>
+              <p>Welcome to your <span className={styles.red}>one stop shop</span> for SA’s past papers!</p>
         </div>
 
         <div className={styles.mainSection3}>
@@ -83,7 +87,7 @@ export default function Home() {
                                 <div>Download</div>
                                 <div>Papers</div>
                             </div>
-                            <Image src={download} alt="Icon" width={74} height={74} />
+                            <Image src={download} alt="Icon" width={74} />
                         </button>
                       </Link>
                 </div>
