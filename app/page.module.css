@@ -29,7 +29,7 @@
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 44px;
   color: #000000;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -96,7 +96,7 @@
   width: 170px;
   font-size: 24px;
   font-family: 'poppins', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   color: #777777;
   border: none;
   background-color: #E6FFE0;
@@ -191,7 +191,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: -100px;
+  margin-top: -10px;
   transform: rotate(30deg);
 }
 

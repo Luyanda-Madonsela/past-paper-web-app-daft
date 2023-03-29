@@ -30,8 +30,9 @@ return (
                     sizes="(max-width: 768px) 100vw,
                     (max-width: 1200px) 50vw,
                     33vw" 
-                    width={100} 
+                    width={150} 
                     height={40}
+                    className={styles.messageImg}
                 />
 
         </div>

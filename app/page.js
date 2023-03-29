@@ -59,7 +59,7 @@ export default function Home() {
                       sizes="(max-width: 768px) 100vw,
                       (max-width: 1200px) 50vw,
                       33vw" 
-                      width={110} 
+                      width={90} 
                       height={50}
                   />
               </div>
@@ -121,7 +121,7 @@ export default function Home() {
                         sizes="(max-width: 768px) 100vw,
                         (max-width: 1200px) 50vw,
                         33vw" 
-                        width={180} 
+                        width={120} 
                         height={30}
                       />
                   </div>
@@ -155,7 +155,7 @@ export default function Home() {
                               sizes="(max-width: 768px) 100vw,
                               (max-width: 1200px) 50vw,
                               33vw" 
-                              width={90} 
+                              width={50} 
                               height={30}
                             />
                         </div>
@@ -165,7 +165,7 @@ export default function Home() {
                               sizes="(max-width: 768px) 100vw,
                               (max-width: 1200px) 50vw,
                               33vw" 
-                              width={90} 
+                              width={60} 
                               height={30}
                             />
                         </div>

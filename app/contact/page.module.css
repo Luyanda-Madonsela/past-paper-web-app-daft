@@ -54,4 +54,7 @@
 
 } 
 
+.messageImg{
+  transform: rotate(-30deg);
+}
 
