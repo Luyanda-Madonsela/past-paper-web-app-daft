@@ -167,7 +167,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 52px;
+  /* line-height: 52px; */
   color: #3C8D98;
 }
 
@@ -231,9 +231,8 @@
   border-radius: 15px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: 350;
+  font-weight: 400;
   font-size: 25px;
-  line-height: 45px;
   color: #3C8D98;
   border: none;
 }

@@ -151,7 +151,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 45px;
+    /* line-height: 45px; */
     color: #3C8D98;
     border: none;
   }

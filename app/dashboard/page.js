@@ -89,7 +89,7 @@ export default function Home() {
                         <Link href="/find_specific_questions">
                             <div className={styles.grid_item2}>
                                 <div>
-                                    <div>Find specific</div>
+                                    <div>Find Specific</div>
                                     <div>Questions</div>
                                 </div>
                                     <Image src={aim} alt="Icon" width={74} />
@@ -109,8 +109,8 @@ export default function Home() {
                         <Link href="/get_a_tutor">
                             <div className={styles.grid_item4}>
                                 <div>
-                                    <div>Book an online</div>
-                                    <div>tutor</div>
+                                    <div>Book Online</div>
+                                    <div>Tutor</div>
                                 </div>
                                     <Image src={tutor} alt="Icon" width={74} />
                                 </div>
