@@ -37,7 +37,7 @@ return (
                 </Link>
 
             </div>
-
+            
             <div className={styles.mainSection2b}>
                 <p>OR</p>
             </div>
@@ -59,7 +59,7 @@ return (
                         <div>specific topics</div>
                     </button>
                 </Link>
-                <div className={styles.text}>*Great for test preparation</div>
+                <div className={styles.text}>*Great for tests and exam preparation</div>
 
             </div>
 

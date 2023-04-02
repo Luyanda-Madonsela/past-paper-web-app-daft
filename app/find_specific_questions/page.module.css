@@ -60,6 +60,7 @@
   font-size: 20px;
   line-height: 45px;
   color: #000000;
+  margin-left: -3%;
 }
 
 .mainSection2c{
@@ -88,7 +89,14 @@
   font-weight: 500;
   font-size: 25px;
   color: #3C8D98;
+}
+
+.basketButt{
   margin-left: -25%;
+}
+
+.particularButt{
+  margin-left: -31%;
 }
 
 .particularButt:hover,.basketButt:hover{
