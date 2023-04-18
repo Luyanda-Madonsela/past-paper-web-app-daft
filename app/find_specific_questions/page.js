@@ -54,7 +54,7 @@ return (
 
                 <Link href="/">
                     <button className={styles.basketButt}  >
-                        <div>I want to select multiple </div>
+                        <div>Give me random </div>
                         <div>questions based on</div>
                         <div>specific topics</div>
                     </button>
