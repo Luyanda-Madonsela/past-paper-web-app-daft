@@ -15,7 +15,7 @@ return (
     <div className={styles.main}>
         
         <div className={styles.mainSection1}>
-            <p>Lets fine-tune your request a little more...</p>
+            <p>Let's be more specific...</p>
         </div>
 
         <div className={styles.mainSection2}>
@@ -31,8 +31,8 @@ return (
 
                 <Link href="/">
                     <button className={styles.particularButt}  >
-                        <div>I know the question</div> 
-                        <div>I want to find</div>
+                        <div>I know which past paper</div> 
+                        <div>I want to do</div>
                     </button>
                 </Link>
 
@@ -59,7 +59,6 @@ return (
                         <div>specific topics</div>
                     </button>
                 </Link>
-                <div className={styles.text}>*Great for tests and exam preparation</div>
 
             </div>
 

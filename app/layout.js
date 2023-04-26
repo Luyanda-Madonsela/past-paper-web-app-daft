@@ -1,7 +1,7 @@
+
 import './globals.css'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
-
 
 export const metadata = {
   title: 'Past Paper Hub',
@@ -11,10 +11,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
-      <head>
-      
-      </head>
 
       <body>
         

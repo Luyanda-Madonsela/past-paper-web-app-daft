@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0rem;
-  height: 84vh;
+  min-height: 84vh;
 }
 
 .mainSection1, .mainSection2, .mainSection3, .mainSection4 {
@@ -165,8 +165,8 @@
   border-radius: 15px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
+  font-weight: 410;
+  font-size: 32px;
   /* line-height: 52px; */
   color: #3C8D98;
 }

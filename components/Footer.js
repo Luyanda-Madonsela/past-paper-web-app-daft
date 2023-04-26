@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/Image';
+import Image from 'next/image';
 import facebook from '/public/images/facebook.png'
 import whatsapp from '/public/images/whatsapp.png'
 import youtube from '/public/images/youtube.png'

@@ -1,8 +1,9 @@
 "use client"
+
 import styles from "./page.module.css";
 import * as React from 'react';
 import Button from '@mui/material/Button';
-import Image from 'next/Image';
+import Image from 'next/image';
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import message from '/public/images/message.gif'

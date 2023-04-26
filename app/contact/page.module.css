@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0rem;
-  height: 105vh;
+  min-height: 105vh;
 }
 
 .mainSection1,.mainSection3{

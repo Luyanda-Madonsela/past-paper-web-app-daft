@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/Image';
+import Image from 'next/image';
 import styles from './page.module.css'
 import physics from '/public/images/physics.gif'
 import chemical from '/public/images/chemical.png'
@@ -9,7 +9,7 @@ import exam from '/public/images/exam.gif'
 import math from '/public/images/maths.gif'
 import writing from '/public/images/writing_green.png'
 import download from '/public/images/download-pdf.png'
-import aim from '/public/images/aim.png'
+import laptop from '/public/images/laptop.png'
 import tutor from '/public/images/support.png'
 import upload from '/public/images/upload-file.png'
 import '@fontsource/poppins/300.css';
@@ -87,7 +87,7 @@ export default function Home() {
                                 <div>Download</div>
                                 <div>Papers</div>
                             </div>
-                            <Image src={download} alt="Icon" width={74} />
+                            <Image src={download} alt="Icon" width={71} />
                         </button>
                       </Link>
                 </div>
@@ -96,10 +96,10 @@ export default function Home() {
                       <Link href="/find_specific_questions">
                         <button className={styles.findQuestionsButt}>
                             <div>
-                                <div>Find Specific</div>
-                                <div>Questions</div>
+                                <div>Work On</div>
+                                <div>Exam Papers</div>
                             </div>
-                            <Image src={aim} alt="Icon" width={74} height={74} />
+                            <Image src={laptop} alt="Icon" width={85} height={97} />
                         </button>
                       </Link>
                 </div>

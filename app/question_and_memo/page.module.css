@@ -4,7 +4,7 @@
     justify-content: top;
     align-items: center;
     padding: 0rem;
-    min-height: 200vh;
+    min-height: 180vh;
   }
 
   .question{
@@ -73,9 +73,10 @@
   font-style: normal;
   font-weight: 500;
   font-size: 150%;
-  color: #3C8D98;
+  color: #2b9dac;
   margin-bottom: 1%;
-  margin-right: 7%;
+  margin-right: 2%;
+
 }
 
 /* ------------------------------------------------------------------------------------ */
@@ -87,6 +88,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  margin-right: -3.4%;
 
 }
 
@@ -284,7 +286,7 @@ margin-top: 3%;
   flex-direction: column;
   justify-content: top;
   align-items: center;
-  gap:3%;
+  gap:4.44%;
   margin-bottom: -9%;
 }
 
@@ -333,6 +335,8 @@ margin-top: 3%;
   line-height: 38px;
   color: #535252;
   gap:10px;
+  margin-top: 1%;
+  margin-left: -18%;
 }
 
 .checkbox{
@@ -341,7 +345,7 @@ margin-top: 3%;
 }
 
 /* ------------------------------------------------------------------------------------ */
-.mainSection6{
+/* .mainSection6{
   height:50vh;
   width: 70%;
   display: flex;
@@ -429,4 +433,4 @@ margin-top: 3%;
 
 .bold{
   font-weight: 550;
-}
+} */

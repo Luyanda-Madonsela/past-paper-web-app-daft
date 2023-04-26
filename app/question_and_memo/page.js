@@ -1,7 +1,7 @@
 "use client"
 
 import Link from 'next/link'
-import Image from 'next/Image';
+import Image from 'next/image';
 import styles from './page.module.css'
 import question from '/public/images/sample_question.png'
 import memo from '/public/images/sample_memo.png'
@@ -16,15 +16,12 @@ import conversation from '/public/images/conversation.png'
 import star_filled from '/public/images/star_filled.png'
 import star_unfilled from '/public/images/star_unfilled.png'
 import door from '/public/images/door.png'
-
-
 import previous from '/public/images/previous.png'
 import * as React from 'react';
 import '@fontsource/poppins/300.css';
 import '@fontsource/poppins/400.css';
 import '@fontsource/poppins/500.css';
 import '@fontsource/poppins/700.css';
-
 
 
 export default function Home() {
@@ -83,7 +80,7 @@ export default function Home() {
         <div className={styles.mainSection4}>
             <div className={styles.mainSection4_a}>
                 <div className={styles.mainSection4_a1}>
-                    <p>Memo</p>
+                    <p>Answers</p>
                 </div>
 
                 <div className={styles.mainSection4_a2}>
@@ -97,7 +94,7 @@ export default function Home() {
                     <Link href="/">
                         <button className={styles.button}>
                             <div>
-                                <div className={styles.red}>Watch Video Explanation</div>
+                                <div className={styles.red}>Video Explanation</div>
                             </div>
                             <Image src={youtube_red} alt="Icon" width={25} />
                         </button>
@@ -163,7 +160,7 @@ export default function Home() {
             <p>I have completed this question</p>
         </div>
 
-        <div className={styles.mainSection6}>
+        {/* <div className={styles.mainSection6}>
             <div className={styles.mainSection6_a}>
                 <div className={styles.mainSection6_a1}>
                     <p>Join the Conversation</p>
@@ -207,7 +204,7 @@ export default function Home() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
         </div>
 )

@@ -1,7 +1,7 @@
 "use client"
 
 import Link from 'next/link'
-import Image from 'next/Image';
+import Image from 'next/image';
 import styles from './page.module.css'
 import physics from '/public/images/physics.gif'
 import chemical from '/public/images/chemical.png'
@@ -11,10 +11,10 @@ import exam from '/public/images/exam.gif'
 import math from '/public/images/maths.gif'
 import writing from '/public/images/writing_green.png'
 import download from '/public/images/download-pdf.png'
-import aim from '/public/images/aim.png'
+import laptop from '/public/images/laptop.png'
 import tutor from '/public/images/support.png'
 import upload from '/public/images/upload-file.png'
-import folder from '/public/images/open-folder-with-document.png'
+import folder from '/public/images/folder.png'
 import settings from '/public/images/gear.png'
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
@@ -56,13 +56,13 @@ export default function Home() {
                             <p>Welcome<span className={styles.name}> Luyanda Madonsela!</span></p>
                         </div>
 
-                        <div className={styles.mainSection2a_1b}>
+                        {/* <div className={styles.mainSection2a_1b}>
 
                         <Stack direction="row" spacing={2}>
                             <Avatar alt="open folder with document" src="/images/profile_pic.png" sx={{ width: 104, height: 104 }} />
                         </Stack>
 
-                        </div>
+                        </div> */}
 
                 </div>
 
@@ -82,17 +82,17 @@ export default function Home() {
                                     <div>My Saved</div>
                                     <div>Questions</div>
                                 </div>
-                                <Image src={folder} alt="Icon" width={74} />
+                                <Image src={folder} alt="Icon" width={70} />
                             </div>
                         </Link>
 
                         <Link href="/find_specific_questions">
                             <div className={styles.grid_item2}>
                                 <div>
-                                    <div>Find Specific</div>
-                                    <div>Questions</div>
+                                    <div>Work On</div>
+                                    <div>Exam Papers</div>
                                 </div>
-                                    <Image src={aim} alt="Icon" width={74} />
+                                    <Image src={laptop} alt="Icon" width={70} height={80} />
                                 </div>
                         </Link>
 
@@ -102,7 +102,7 @@ export default function Home() {
                                     <div>Download</div>
                                     <div>Papers</div>
                                 </div>
-                                    <Image src={download} alt="Icon" width={74} />
+                                    <Image src={download} alt="Icon" width={70} />
                                 </div>
                         </Link>
 
