@@ -47,23 +47,6 @@
     align-items: center;
   } 
 
-  .signInButton{
-    font-family: 'poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 45px;
-    color: #3C8D98;
-    background: #F0FEFF;
-    box-shadow: none;
-  }
-
-  .signInButton:hover{
-    color: #b6faf9;
-    background: #F0FEFF;
-    box-shadow: none;
-  } 
-
   .mainSection2b{
     width: 85%;
     height: 7vh;

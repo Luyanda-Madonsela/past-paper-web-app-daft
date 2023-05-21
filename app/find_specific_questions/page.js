@@ -29,7 +29,7 @@ return (
                     height={50}
                 />
 
-                <Link href="/">
+                <Link href="/question_and_memo">
                     <button className={styles.particularButt}  >
                         <div>I know which past paper</div> 
                         <div>I want to do</div>
@@ -52,7 +52,7 @@ return (
                     height={50}
                 />
 
-                <Link href="/">
+                <Link href="/question_and_memo">
                     <button className={styles.basketButt}  >
                         <div>Give me random </div>
                         <div>questions based on</div>
@@ -60,7 +60,10 @@ return (
                     </button>
                 </Link>
 
+                <p className={styles.text}>*Great for test preparation</p>
+                
             </div>
+
 
         </div>
 

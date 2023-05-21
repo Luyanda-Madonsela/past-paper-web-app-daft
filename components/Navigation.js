@@ -42,7 +42,7 @@ const Navigation = () => {
 
 
       <div className='navItems' > 
-          <Link href="/">
+          <Link className='navItem' href="/">
             <p>Home</p>
           </Link>
 

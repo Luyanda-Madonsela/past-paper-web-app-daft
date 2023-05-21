@@ -24,13 +24,13 @@
   }
 
 .mainSection1{
-  height:5vh;
+  height:6.5vh;
   width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1%;
+  margin-top: -0.2%;
 }
 
 .mainSection1_a,.mainSection1_c{
@@ -44,12 +44,12 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  color: #606060;
+  color: #353535;
 }
 
 .mainSection1_a:hover,.mainSection1_c:hover{
   border-radius: 76px;
-  color:  #b6faf9;
+  color:  #3C8D98;
 }
 
 .mainSection1_a{
@@ -73,7 +73,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 150%;
-  color: #2b9dac;
+  color: #3C8D98;
   margin-bottom: 1%;
   margin-right: 2%;
 
@@ -114,8 +114,8 @@
   font-style: normal;
   font-weight: 500;
   font-size: 100%;
-  color: #606060;
-  border: 2.5px solid #e2e2e2;
+  color: #353535;
+  border: 2.5px solid #ededed;
   border-radius: 4px;
 }
 
@@ -124,7 +124,7 @@
   width: 30%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   margin-right: 0%;
   border: none;
@@ -132,7 +132,7 @@
 }
 
 .mainSection2_c:hover{
-  color:  #b6faf9;
+  color:  #3C8D98;
 }
 
 .infoSheet{
@@ -166,35 +166,35 @@
   height:95%;
   width: 100%;
   overflow-y: scroll;
-  border: 3px solid #e2e2e2;
+  border: 3px solid #ededed;
   border-radius: 4px;
 }
 /* Add custom scrollbar styles */
 .mainSection3_a::-webkit-scrollbar {
-  width: 8px; /* Width of the scrollbar */
-  background-color: #F0F0F0; /* Background color of the scrollbar track */
+  width: 1px; /* Width of the scrollbar */
+  background-color: #ededed; /* Background color of the scrollbar track */
 }
 
 .mainSection3_a::-webkit-scrollbar-thumb {
-  background-color: #BDBDBD; /* Color of the scrollbar thumb */
-  border-radius: 4px; /* Rounded corners of the scrollbar thumb */
+  background-color: #ededed; /* Color of the scrollbar thumb */
+  border-radius: 1px; /* Rounded corners of the scrollbar thumb */
 }
 
 .mainSection3_a::-webkit-scrollbar-thumb:hover {
-  background-color: #9E9E9E; /* Color of the scrollbar thumb on hover */
+  background-color: #ededed; /* Color of the scrollbar thumb on hover */
 }
 
 .mainSection3_a::-webkit-scrollbar-thumb:active {
-  background-color: #757575; /* Color of the scrollbar thumb on active */
+  background-color: #ededed; /* Color of the scrollbar thumb on active */
 }
 
 .mainSection3_a::-webkit-scrollbar-track {
-  background-color: #F0F0F0; /* Background color of the scrollbar track */
+  background-color: #ededed; /* Background color of the scrollbar track */
 }
 
 
 .mainSection3_b{
-  height:5%;
+  height:6%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -205,8 +205,8 @@
   font-weight: 400;
   font-size: 80%;
   text-decoration-line: underline;
-  color: #5B5B5B;
-  margin-top: 5px;
+  color: #ededed;
+  margin-top: 0px;
 }
 
 /* ------------------------------------------------------------------------------------ */
@@ -251,23 +251,23 @@ margin-top: 3%;
   width: 100%;
   overflow-y: hidden;
   overflow-y: scroll;
-  border: 3px solid #e2e2e2;
+  border: 3px solid #ededed;
   border-radius: 4px;
 }
 
 /* Add custom scrollbar styles */
 .mainSection4_a2::-webkit-scrollbar {
-  width: 8px; /* Width of the scrollbar */
-  background-color: #F0F0F0; /* Background color of the scrollbar track */
+  width: 1px; /* Width of the scrollbar */
+  background-color: #ededed; /* Background color of the scrollbar track */
 }
 
 .mainSection4_a2::-webkit-scrollbar-thumb {
-  background-color: #BDBDBD; /* Color of the scrollbar thumb */
-  border-radius: 4px; /* Rounded corners of the scrollbar thumb */
+  background-color: #ededed; /* Color of the scrollbar thumb */
+  border-radius: 1px; /* Rounded corners of the scrollbar thumb */
 }
 
 .mainSection4_a2::-webkit-scrollbar-thumb:hover {
-  background-color: #9E9E9E; /* Color of the scrollbar thumb on hover */
+  background-color: #ededed; /* Color of the scrollbar thumb on hover */
 }
 
 .mainSection4_a2::-webkit-scrollbar-thumb:active {
@@ -275,7 +275,7 @@ margin-top: 3%;
 }
 
 .mainSection4_a2::-webkit-scrollbar-track {
-  background-color: #F0F0F0; /* Background color of the scrollbar track */
+  background-color: #ededed; /* Background color of the scrollbar track */
 }
 
 
@@ -296,9 +296,9 @@ margin-top: 3%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #F0FEFF;
+  background: #ffffff;
   border-radius: 5px;
-  border: none;
+  border: 3px solid #ededed;
   width:250px;
   height: 65px;
   gap:10px;
@@ -306,13 +306,13 @@ margin-top: 3%;
   font-style: normal;
   font-weight: 500;
   font-size: 90%;
-  color: #3C8D98;
+  color: #353535;
   margin-left: 10%;
 }
 
 .button:hover{
   font-size: 92%;
-  color: #b6faf9;
+  color: #3C8D98;
 }
 
 .red{
@@ -333,7 +333,7 @@ margin-top: 3%;
   font-weight: 500;
   font-size: 100%;
   line-height: 38px;
-  color: #535252;
+  color: #353535;
   gap:10px;
   margin-top: 1%;
   margin-left: -18%;

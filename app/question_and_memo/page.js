@@ -12,10 +12,6 @@ import save from '/public/images/save.png'
 import download from '/public/images/download-pdf.png'
 import share from '/public/images/share.png'
 import tutor from '/public/images/tutor.png'
-import conversation from '/public/images/conversation.png'
-import star_filled from '/public/images/star_filled.png'
-import star_unfilled from '/public/images/star_unfilled.png'
-import door from '/public/images/door.png'
 import previous from '/public/images/previous.png'
 import * as React from 'react';
 import '@fontsource/poppins/300.css';
@@ -63,7 +59,7 @@ export default function Home() {
                         <option value="" selected disabled>Information Sheets</option>
                         <option value="">DBE Formula Sheet</option>
                         <option value="">Diagram Sheet</option>
-                    </select>
+                    </select> 
                 </div>
         </div>
 
@@ -80,7 +76,7 @@ export default function Home() {
         <div className={styles.mainSection4}>
             <div className={styles.mainSection4_a}>
                 <div className={styles.mainSection4_a1}>
-                    <p>Answers</p>
+                    <p>Memo</p>
                 </div>
 
                 <div className={styles.mainSection4_a2}>
@@ -159,52 +155,6 @@ export default function Home() {
             />
             <p>I have completed this question</p>
         </div>
-
-        {/* <div className={styles.mainSection6}>
-            <div className={styles.mainSection6_a}>
-                <div className={styles.mainSection6_a1}>
-                    <p>Join the Conversation</p>
-                    <Image src={conversation} alt="Icon" width={35} />
-                </div>
-
-                <div className={styles.mainSection6_a2}>
-
-                </div>
-            </div>
-
-                <div className={styles.mainSection6_b}>
-                    <div className={styles.mainSection6_b_1}>
-                        <div className={styles.mainSection6_b_1_a}>
-                            <p className={styles.mainSection6_b_1_a_1}>
-                                <span className={styles.bold}>Rate the difficulty of this question:</span>
-                            </p>
-                            <div className={styles.mainSection6_b_1_a_2}>
-                                <Image src={star_filled} alt="Icon" width={18} />
-                                <Image src={star_filled} alt="Icon" width={18} />
-                                <Image src={star_filled} alt="Icon" width={18} />
-                                <Image src={star_unfilled} alt="Icon" width={20.5} />
-                                <Image src={star_unfilled} alt="Icon" width={20.5} />
-                            </div>
-
-                        </div>
-
-                        <div className={styles.mainSection6_b_1_b}>
-                            <p>See any errors?  <span className={styles.underline}><Link href="/contact">Please let us know here</Link></span></p>
-                        </div>
-
-                        <div className={styles.mainSection6_b_1_c}>
-                            <p>Want to save your progress? <span className={styles.underline}><Link href="/signup">Sign up here</Link></span></p> 
-                        </div>
-
-                    </div>
-
-                    <div className={styles.mainSection6_b_2}>
-                        <div><Link href="/dashboard"><Image src={door} alt="Icon" width={50}/></Link></div>
-                        <div><p>Back to student dashboard</p></div>
-                    </div>
-
-                </div>
-            </div> */}
 
         </div>
 )
