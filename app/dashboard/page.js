@@ -102,7 +102,7 @@ export default function Home() {
                                     <div>Download</div>
                                     <div>Papers</div>
                                 </div>
-                                    <Image src={download} alt="Icon" width={70} />
+                                    <Image src={download} alt="Icon" width={62} />
                                 </div>
                         </Link>
 
@@ -112,7 +112,7 @@ export default function Home() {
                                     <div>Book Online</div>
                                     <div>Tutor</div>
                                 </div>
-                                    <Image src={tutor} alt="Icon" width={74} />
+                                    <Image src={tutor} alt="Icon" width={62} />
                                 </div>
                         </Link>
 

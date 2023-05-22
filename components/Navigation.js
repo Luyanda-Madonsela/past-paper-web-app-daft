@@ -24,23 +24,6 @@ const Navigation = () => {
           </Link>     
       </div>
 
-      <div className='user'>
-           <Link href="/profile">
-            <div className='name'>
-                <p>Luyanda Madonsela</p>
-
-                <div>
-                    <Stack direction="row" spacing={2}>
-                        <Avatar alt="open folder with document" src="/images/profile_pic.png" sx={{ width: 35, height: 35 }} />
-                    </Stack>
-                </div>
-
-            </div>
-            </Link>  
-
-      </div>
-
-
       <div className='navItems' > 
           <Link className='navItem' href="/">
             <p>Home</p>
@@ -58,6 +41,22 @@ const Navigation = () => {
             <p>Contact Us</p>
           </Link>
         </div>
+
+      <div className='user'>
+          <Link href="/profile">
+            <div className='name'>
+                <p>Luyanda Madonsela</p>
+
+                <div>
+                    <Stack direction="row" spacing={2}>
+                        <Avatar alt="open folder with document" src="/images/profile_pic.png" sx={{ width: 35, height: 35 }} />
+                    </Stack>
+                </div>
+
+            </div>
+          </Link> 
+
+      </div>
 
     </nav>
   )
