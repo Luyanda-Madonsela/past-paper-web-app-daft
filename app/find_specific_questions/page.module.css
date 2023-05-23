@@ -74,6 +74,17 @@
   padding-top: 3%;
 }
 
+.benefitsLink{
+  font-size: 12px;
+  font-family: 'poppins', sans-serif;
+  text-decoration-line: underline;
+  color: #0c0c0c;
+}
+
+.benefitsLink:hover{
+  color: rgb(48, 203, 89);
+}
+
 .particularButt,.basketButt{
   display: flex;
   flex-direction: column;

@@ -50,7 +50,7 @@ export default function Home() {
                       </Link>
                   </div>
                   
-                  <Link className={styles.benefitsLink} href="/benefits">What are the benefits of being a registered user?</Link>
+                  <Link className={styles.benefitsLink} href="/benefits">Quick overview of all our past papers</Link>
 
               </div>
 

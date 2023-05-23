@@ -15,7 +15,8 @@ return (
     <div className={styles.main}>
         
         <div className={styles.mainSection1}>
-            <p>Let's be more specific...</p>
+        <Link className={styles.benefitsLink} href="/benefits">Quick overview of all our past papers</Link>
+            <p>Let's get more specific...</p>
         </div>
 
         <div className={styles.mainSection2}>
