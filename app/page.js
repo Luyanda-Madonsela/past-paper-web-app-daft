@@ -10,8 +10,8 @@ import math from '/public/images/maths.gif'
 import writing from '/public/images/writing_green.png'
 import download from '/public/images/download-pdf.png'
 import laptop from '/public/images/laptop.png'
-import tutor from '/public/images/support.png'
-import upload from '/public/images/upload-file.png'
+import tutor from '/public/images/tutor.png'
+import teacher from '/public/images/teacher_tools.png'
 import '@fontsource/poppins/300.css';
 import '@fontsource/poppins/400.css';
 import '@fontsource/poppins/500.css';
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
 
         <div className={styles.mainSection2}>
-              <p>Welcome to your <span className={styles.red}>one stop shop</span> for SA’s past papers!</p>
+              <p>Your <span className={styles.red}>one stop shop</span> for SA’s past papers - Grade 8 to 12!</p>
         </div>
 
         <div className={styles.mainSection3}>
@@ -140,9 +140,9 @@ export default function Home() {
                       <Link href="/send_us_papers">
                         <button className={styles.sendPapersButt}>
                             <div>
-                                <div>Send Us Papers</div>
+                                <div>Teacher Tools</div>
                             </div>
-                            <Image src={upload} alt="Icon" width={54} height={54} />
+                            <Image src={teacher} alt="Icon" width={54} height={54} />
                         </button>
                       </Link>
 

@@ -12,14 +12,11 @@ import math from '/public/images/maths.gif'
 import writing from '/public/images/writing_green.png'
 import download from '/public/images/download-pdf.png'
 import laptop from '/public/images/laptop.png'
-import tutor from '/public/images/support.png'
-import upload from '/public/images/upload-file.png'
+import tutor from '/public/images/tutor.png'
+import teacher from '/public/images/teacher_tools.png'
 import folder from '/public/images/folder.png'
 import settings from '/public/images/gear.png'
 import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
-
 import '@fontsource/poppins/300.css';
 import '@fontsource/poppins/400.css';
 import '@fontsource/poppins/500.css';
@@ -55,14 +52,6 @@ export default function Home() {
                         <div className={styles.mainSection2a_1a}>
                             <p>Welcome<span className={styles.name}> Luyanda Madonsela!</span></p>
                         </div>
-
-                        {/* <div className={styles.mainSection2a_1b}>
-
-                        <Stack direction="row" spacing={2}>
-                            <Avatar alt="open folder with document" src="/images/profile_pic.png" sx={{ width: 104, height: 104 }} />
-                        </Stack>
-
-                        </div> */}
 
                 </div>
 
@@ -128,9 +117,9 @@ export default function Home() {
                         <Link href="/send_us_papers">
                             <div className={styles.grid_item6}>
                                 <div>
-                                    <div>Upload Papers</div>
+                                    <div>Teacher Tools</div>
                                 </div>
-                                    <Image src={upload} alt="Icon" width={44} />
+                                    <Image src={teacher} alt="Icon" width={44} />
                                 </div>
                         </Link>
 

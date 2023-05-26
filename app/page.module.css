@@ -40,6 +40,11 @@
   color: #ed0a0a;
 }
 
+.green{
+  color: #000000;
+  /* text-decoration-line: underline; */
+}
+
 .mainSection3{
   height: 35vh;
   display: flex;
