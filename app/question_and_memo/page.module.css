@@ -108,7 +108,7 @@
 
 .mainSection2_b{
   height:60%;
-  width: 33%;
+  width: 40%;
   font-size: medium;
   font-family: 'Poppins';
   font-style: normal;
@@ -117,6 +117,7 @@
   color: #353535;
   border: 2.5px solid #ededed;
   border-radius: 4px;
+  margin-right: -2%;
 }
 
 .mainSection2_c{
@@ -126,7 +127,7 @@
   flex-direction: row;
   justify-content: right;
   align-items: center;
-  margin-right: 0%;
+  margin-right: 1.1%;
   border: none;
 
 }

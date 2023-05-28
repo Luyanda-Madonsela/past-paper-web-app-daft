@@ -57,7 +57,7 @@ return (
                     <button className={styles.basketButt}  >
                         <div>Give me random </div>
                         <div>questions based on</div>
-                        <div>specific topics</div>
+                        <div>topics I specify</div>
                     </button>
                 </Link>
 

@@ -51,7 +51,7 @@ export default function Home() {
                 </div>
 
                 <div className={styles.mainSection2_b}>
-                        <p>DBE - November 2018 - Paper 1 - Question 5</p>
+                        <p>DBE - Gr 12 - November 2018 - Paper 1 - Question 5.2.2</p>
                 </div>
 
                 <div className={styles.mainSection2_c}>
