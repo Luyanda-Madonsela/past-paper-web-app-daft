@@ -66,7 +66,7 @@ export default function Home() {
         </div>
 
         <div className={styles.mainSection2}>
-              <p>Your <span className={styles.red}>one stop shop</span> for SA’s past papers - Grade 8 to 12!</p>
+              <p>Your <span className={styles.red}>one stop shop</span> for SA’s maths & science revision - Grade 8 to 12!</p>
         </div>
 
         <div className={styles.mainSection3}>
