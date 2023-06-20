@@ -50,7 +50,7 @@ export default function Home() {
                       </Link>
                   </div>
                   
-                  <Link className={styles.benefitsLink} href="/benefits">Quick overview of all our past papers</Link>
+                  <Link className={styles.benefitsLink} href="/benefits">Quick overview of all our stuff</Link>
 
               </div>
 

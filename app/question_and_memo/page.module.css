@@ -177,16 +177,16 @@
 }
 
 .mainSection3_a::-webkit-scrollbar-thumb {
-  background-color: #838383; /* Color of the scrollbar thumb */
+  background-color: #b9b9b9; /* Color of the scrollbar thumb */
   border-radius: 5px; /* Rounded corners of the scrollbar thumb */
 }
 
 .mainSection3_a::-webkit-scrollbar-thumb:hover {
-  background-color: #656565; /* Color of the scrollbar thumb on hover */
+  background-color: #7b7b7b; /* Color of the scrollbar thumb on hover */
 }
 
 .mainSection3_a::-webkit-scrollbar-thumb:active {
-  background-color: #656565; /* Color of the scrollbar thumb on active */
+  background-color: #878787; /* Color of the scrollbar thumb on active */
 }
 
 .mainSection3_a::-webkit-scrollbar-track {
@@ -261,16 +261,16 @@
 }
 
 .mainSection4_a2::-webkit-scrollbar-thumb {
-  background-color: #838383; /* Color of the scrollbar thumb */
+  background-color: #b9b9b9; /* Color of the scrollbar thumb */
   border-radius: 5px; /* Rounded corners of the scrollbar thumb */
 }
 
 .mainSection4_a2::-webkit-scrollbar-thumb:hover {
-  background-color: #656565; /* Color of the scrollbar thumb on hover */
+  background-color: #7b7b7b; /* Color of the scrollbar thumb on hover */
 }
 
 .mainSection4_a2::-webkit-scrollbar-thumb:active {
-  background-color: #656565; /* Color of the scrollbar thumb on hover */
+  background-color: #878787; /* Color of the scrollbar thumb on hover */
 }
 
 .mainSection4_a2::-webkit-scrollbar-track {
@@ -289,7 +289,7 @@
 }
 
 
-.button{
+.vidButton,.button{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -306,6 +306,10 @@
   font-size: 90%;
   color: #353535;
   margin-left: 10%;
+}
+
+.vidButton{
+  border: 2px solid rgb(255, 141, 141);
 }
 
 .button:hover{

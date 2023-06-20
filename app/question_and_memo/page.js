@@ -76,7 +76,7 @@ export default function Home() {
         <div className={styles.mainSection4}>
             <div className={styles.mainSection4_a}>
                 <div className={styles.mainSection4_a1}>
-                    <p>Memo</p>
+                    <p>Marking Guidlines</p>
                 </div>
 
                 <div className={styles.mainSection4_a2}>
@@ -88,7 +88,7 @@ export default function Home() {
             <div className={styles.mainSection4_b}>
 
                     <Link href="/">
-                        <button className={styles.button}>
+                        <button className={styles.vidButton}>
                             <div>
                                 <div className={styles.red}>Video Explanation</div>
                             </div>
